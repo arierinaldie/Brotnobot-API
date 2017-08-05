@@ -1,6 +1,9 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+# logs folder
+/logs/*
+!/logs/README.md
+
+# vendor folder
+/vendor/
+
+# composer lock file
+composer.lock
